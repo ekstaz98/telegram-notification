@@ -2,8 +2,8 @@ import { Module } from '@nestjs/common'
 import { ConfigModule } from '@nestjs/config'
 import { TypeOrmModule } from '@nestjs/typeorm'
 
-import { config } from './infrastructure/config/config'
-import { typeOrmConfig } from './infrastructure/config/typeorm.config'
+import { config } from './infrastructure/config/configs/global.config'
+import { typeOrmConfig } from './infrastructure/config/configs/typeorm.config'
 
 @Module({
     imports: [

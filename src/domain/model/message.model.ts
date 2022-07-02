@@ -1,5 +1,3 @@
 import { BaseModel } from "./base.model"
 
-export class MessageModel extends BaseModel {
-    
-}
+export class MessageModel extends BaseModel {}
