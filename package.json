@@ -27,6 +27,7 @@
         "migrate:generate": "ts-node --transpile-only ./node_modules/typeorm/cli.js migration:generate -n"
     },
     "dependencies": {
+        "@gitbeaker/node": "^35.6.0",
         "@nestjs/common": "^7.0.0",
         "@nestjs/config": "^0.5.0",
         "@nestjs/core": "^7.0.0",
