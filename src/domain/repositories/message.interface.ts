@@ -1,4 +1,4 @@
 export interface MessageRepository {
-    insert<T>(command: T): Promise<T>;
-    findAll<T>(): Promise<T>;
+    insert(command: string): Promise<string>;
+    findAll(): Promise<string[]>;
 }

@@ -1,3 +1,3 @@
 export interface IGitlabService {
-    getMergeRequests<T>(param: T): Promise<T>;
+    getMergeRequests(param: string): Promise<string>;
 }
